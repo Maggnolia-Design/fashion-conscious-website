@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'valenciasans';
+    src: url('../fonts/valenciasans.eot');
+    src: url('../fonts/valenciasans.eot') format('embedded-opentype'),
+         url('../fonts/valenciasans.woff2') format('woff2'),
+         url('../fonts/valenciasans.woff') format('woff'),
+         url('../fonts/valenciasans.ttf') format('truetype'),
+         url('../fonts/valenciasans.svg#valenciasans') format('svg');
+}
+
+@font-face {
+    font-family: 'MoonBold';
+    src: url('../fonts/MoonBold.eot');
+    src: url('../fonts/MoonBold.eot') format('embedded-opentype'),
+         url('../fonts/MoonBold.woff2') format('woff2'),
+         url('../fonts/MoonBold.woff') format('woff'),
+         url('../fonts/MoonBold.ttf') format('truetype'),
+         url('../fonts/MoonBold.svg#MoonBold') format('svg');
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+}
+
+/* HOMEPAGE */
+
+.hp-logo {
+    background-color: black;
+    color: white;
+    height: 32rem;
+    width: 32rem;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'valenciasans', cursive;
+    font-size: 7.5rem;
+    color: white;
+    padding-top: 7rem;
+    line-height: 6rem;
+}
+
+h2 {
+    font-family: 'MoonBold', sans-serif;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: 'MoonBold', sans-serif;
+    font-size: 1rem;
+    padding-top: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.hp-description {
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+/* NAV BAR */
+
+.dropdown {
+    float: right;
+}
+
+/* CAMPAIGN */
+
+h5 {
+    font-size: 1.5rem;
+}
+img {
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 95%;
+}
+
+.card {
+    padding-top: 2rem;
+}
+
+.caption {
+    font-size: 12px;
+}
