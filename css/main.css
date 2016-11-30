@@ -33,8 +33,9 @@ body {
     height: 32rem;
     width: 32rem;
     border-radius: 50%;
-    margin: auto;
+    margin: 4rem auto;
     text-align: center;
+    margin-bottom: 6rem;
 }
 
 h1 {
@@ -58,7 +59,7 @@ h3 {
 }
 
 .hp-description {
-    padding-top: 1.5rem;
+    padding-bottom: 5rem;
     text-align: center;
 }
 
@@ -76,7 +77,7 @@ h5 {
 img {
     border-radius: 4px;
     display: block;
-    margin: 1.3em auto;
+    margin: 1.3em auto ;
     max-width: 95%;
 }
 
@@ -86,4 +87,74 @@ img {
 
 .caption {
     font-size: 12px;
+}
+
+ul {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.divider {
+    background-color: #ccc;
+    height: 1px;
+}
+
+/* PLEDGE */
+
+.quotation-top {
+    padding-top: 3rem;
+    font-size: 1.3rem;
+    font-family: Helvetica Neue;
+    color: #be1f30;
+}
+
+.quotation-bottom {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+a {
+   color: #be1f30; 
+}
+
+.progress {
+    height: 8px;
+}
+
+.current {
+    float: left;
+}
+
+.goal {
+    float: right;
+}
+
+.pledge {
+    padding-top: 4rem;
+}
+
+.statements {
+    text-align: left;
+    width: 90%;
+}
+
+.form div {
+    padding-top: 1rem;
+    width: 70%;
+    margin: auto;
+}
+
+.btn-group {
+    padding-left:19.2rem;
+}
+
+.btn-group button {
+    background-color: #be1f30;
+    color: white;
+    width: 10rem;
+}
+
+.small-text {
+    font-size: 1.2rem;
 }

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale=1”>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A website for the Fashion Conscious campaign.">
+    <title>Fashion Conscious | Campaign</title>
+
+    <!-- favicons -->
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--
+<ul class="nav nav-pills">
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">The Campaign</a>
+      <a class="dropdown-item" href="#">The Issues</a>
+      <a class="dropdown-item" href="#">Stories / News</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Take Action</a>
+    </div>
+  </li>
+</ul>
+-->
+    
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu dropdown-menu-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="campaign.html">The Campaign</a></li>
+        <li><a href="stories.html">Stories / News</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="action.html">Take Action</a></li>
+        <li><a href="pledgen.html">The Pledge</a></li>
+    </ul>
+</div>
+    
+    <h2>Take the Pledge</h2>
+    <h5 class="quotation-top">Help Reduce the True Cost of Fast Fashion</h5>
+    <h2 class="quotation-bottom">Become a Responsible Clothing Consumer</h2>
+    <img height="" width="" src="img/pledge.jpg">
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+        <span class="sr-only">60% Complete</span>
+      </div>
+    </div>
+    
+    <div>
+        <p class="current">Current: 15,369</p>
+        <p class="goal">Goal: 50,000</p>
+    </div>
+    
+    <div id="accordion" role="tablist" aria-multiselectable="true" class="pledge">
+        <div class="card">
+            <div class="card-header" role="tab" id="headingOne">
+                <h5 class="mb-0">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Read the Statements
+                    </a>
+                </h5>
+                
+            <div id="collapseOne" class="collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="card-block">
+                    <p>This is the main summary of the petition; it clearly and concisely conveys the goal and reads as a call-to action statement.</p>
+                    <p>These are a bunch of more detailed descriptions of the petition; some statements are explainations of it's importance, etc..</p>
+                    <ul class="statements">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li> Quem si tenueris, non modo meum Ciceronem, sed etiam me ipsum abducas licebit.</li>
+                        <li>Si enim, ut mihi quidem videtur, non explet bona naturae.</li>
+                        <li>Iam contemni non poteris hunc vos beatum; videsne ut haec..</li>
+                        <li>Potius ergo illa dicantur: turpe esse, viri non esse debilitari dolore quanta sit alias.</li>
+                        <li>Et quidem iure fortasse, sed tamen non gravissimum est testimonium multitudinis</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header" role="tab" id="headingTwo">
+            <h5 class="mb-0">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                Sign Now
+                </a>
+            </h5>
+            <div id="collapseTwo" class="collapse in" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="card-block">
+                    <div class="form">
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="First Name" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Last Name" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="btn-group">
+                          <button class="btn btn-default btn-md dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Submit
+                          </button>
+                        </div>
+                    </div>
+                        <input type="checkbox" aria-label="...">
+                        <p class="small-text">I'd like Fashion Conscious to email me about new stories and updates</p>
+                        <li role="separator" class="divider"></li>
+                        <input type="checkbox" aria-label="...">
+                        <p class="small-text">Display my signature</p>
+                        <li role="separator" class="divider"></li>
+                        <input type="checkbox" aria-label="...">
+                        <p class="small-text">Continue to account registration page</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
