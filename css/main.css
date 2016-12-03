@@ -25,6 +25,10 @@ body {
     padding: 2em 2em 4em;
 }
 
+.card-header a {
+   color: red; 
+}
+
 /* HOMEPAGE */
 
 .hp-logo {
@@ -58,22 +62,30 @@ h3 {
     line-height: 1.5rem;
 }
 
+h5 {
+    font-size: 1.5rem;
+}
+
 .hp-description {
     padding-bottom: 5rem;
     text-align: center;
 }
 
-/* NAV BAR */
+/* NAVIGATION */
 
-.dropdown {
+.nav-stacked {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.navigation {
     float: right;
 }
 
+
 /* CAMPAIGN */
 
-h5 {
-    font-size: 1.5rem;
-}
 img {
     border-radius: 4px;
     display: block;
@@ -87,12 +99,6 @@ img {
 
 .caption {
     font-size: 12px;
-}
-
-ul {
-    width: 75%;
-    margin: auto;
-    text-align: center;
 }
 
 .divider {
@@ -112,10 +118,6 @@ ul {
 .quotation-bottom {
     margin-bottom: 1rem;
     font-size: 2.5rem;
-}
-
-a {
-   color: #be1f30; 
 }
 
 .progress {

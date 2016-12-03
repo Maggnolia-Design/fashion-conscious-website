@@ -6,43 +6,21 @@
     <meta name="viewport" content="width=device-width" initial-scale=1”>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A website for the Fashion Conscious campaign.">
-    <title>Fashion Conscious | Campaign</title>
+    
+    <title>Fashion Conscious | Take Action</title>
 
     <!-- favicons -->
+    
+    <!-- links and scripts -->
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 <body>
-<!--
-<ul class="nav nav-pills">
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">The Campaign</a>
-      <a class="dropdown-item" href="#">The Issues</a>
-      <a class="dropdown-item" href="#">Stories / News</a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">Take Action</a>
-    </div>
-  </li>
-</ul>
--->
-    
-<div class="dropdown">
-    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
-    <span class="caret"></span></button>
-    <ul class="dropdown-menu dropdown-menu-right">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="campaign.html">The Campaign</a></li>
-        <li><a href="stories.html">Stories / News</a></li>
-        <li role="separator" class="divider"></li>
-        <li><a href="action.html">Take Action</a></li>
-        <li><a href="petition.html">The Petition</a></li>
-    </ul>
-</div>
+    <nav id="navMenu"></nav>
     
     <h2>Take Action</h2>
     <img height="" width="" src="img/take-action.jpg">
@@ -95,8 +73,10 @@
             <div id="collapseTwo" class="collapse in" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-block">
                     <p>Will include explaination of what sustainability looks like; what kind of materials are used, what kind of workers and factories are involved, etc. Also include discussion about following trends vs. investing in good quality products and wardrobes staples which can be used in more versatile ways. Will also show suggested brands.</p>
+                    <div role="separator" class="divider"></div>
                     <h6>What to Look For</h6>
                     <p>What materials took look for; what labels and ways to verify?</p>
+                    <div role="separator" class="divider"></div>
                     <h6>Where to buy</h6>
                     <p>Will also provide examples and descriptions of companies which source their materials and design their clothes with sustainability in mind.</p>
 
@@ -126,6 +106,7 @@
                               <p>Name of brand.</p>
                             </div>
                         </div>
+                    <div role="separator" class="divider"></div>
                     <h6>Sustainable Style</h6>
                     <p>Discussion about following trends vs. investing in good quality products and wardrobes staples which can be used in more versatile ways.</p>
                 </div>
@@ -134,17 +115,19 @@
         <div class="card">
             <div class="card-header" role="tab" id="headingThree">
               <h5 class="mb-0">
-                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                   Upcycle/Refshion
                 </a>
               </h5>
             </div>
             <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
               <div class="card-block">
-                  Upcycle refashion
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                  <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
               </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
