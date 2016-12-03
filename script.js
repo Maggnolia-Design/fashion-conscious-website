@@ -1,5 +1,5 @@
 document.getElementById("navMenu").innerHTML =
-    '<ul class="nav nav-pills navigation">' +
+    '<ul class="nav nav-pills">' +
         '<li><a href="index.html" target="_top">Sign-Up</a></li>' +
         '<li role="presentation" class="dropdown active">' +
             '<a class="dropdown-toggle" data-toggle="dropdown" href="#" target="_top">Menu<b class="caret"></b></a>' +

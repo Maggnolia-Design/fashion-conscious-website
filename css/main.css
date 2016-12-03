@@ -50,9 +50,10 @@ h1 {
     line-height: 6rem;
 }
 
-h2 {
-    font-family: 'MoonBold', sans-serif;
+.pageName {
+    padding-top: 3rem;
     font-size: 2rem;
+    font-family: 'MoonBold', sans-serif;
 }
 
 h3 {
@@ -79,7 +80,7 @@ h5 {
     text-align: center;
 }
 
-.navigation {
+#navMenu {
     float: right;
 }
 
@@ -116,6 +117,7 @@ img {
 }
 
 .quotation-bottom {
+    font-family: 'MoonBold', sans-serif;
     margin-bottom: 1rem;
     font-size: 2.5rem;
 }
