@@ -1,6 +1,5 @@
 document.getElementById("navMenu").innerHTML =
     '<ul class="nav nav-pills">' +
-        '<li><a href="index.html" target="_top">Sign-Up</a></li>' +
         '<li role="presentation" class="dropdown active">' +
             '<a class="dropdown-toggle" data-toggle="dropdown" href="#" target="_top">Menu<b class="caret"></b></a>' +
             '<ul class="dropdown-menu dropdown-menu-right">' +
@@ -13,3 +12,15 @@ document.getElementById("navMenu").innerHTML =
             '</ul>' +
         '</li>' +
     '</ul>';
+
+
+
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
